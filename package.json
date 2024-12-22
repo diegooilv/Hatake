@@ -4,7 +4,10 @@
   "description": "Minha API pessoal.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
@@ -19,8 +22,8 @@
   },
   "homepage": "https://github.com/diegooilv/Hatake#readme",
   "dependencies": {
-    "next": "^15.1.2",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "next": "^13.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
